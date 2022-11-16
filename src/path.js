@@ -1,6 +1,6 @@
 const path = require("path");
 const fs = require("fs");
-const argsTerminal = process.argv
+//const argsTerminal = process.argv
 
 const isPathExist = (param) => {
     if (!fs.existsSync(param)){

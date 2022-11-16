@@ -1,4 +1,4 @@
-const { isPathAbsolute, isPathExist } = require('../src/path-process');
+const { isPathAbsolute, isPathExist } = require("../src/path");
 
 // Test para conversión de ruta relativa en absoluta
 
@@ -22,8 +22,8 @@ describe('Testing isPathAbsolute', () => {
 
 describe('Testing isPathAbsolute', () => {
     it ('Should convert relative route into absolute', () => {
-        let relativeRoute = '../__mocks__/mock-directory';
-        let absoluteRoute = 'C:\\Users\\andre\\BOG005-md-links\\__mocks__\\mock-directory';
+        let relativeRoute = "../__mocks__/mock-directory";
+        let absoluteRoute = "/Users/tatianasanabr/__mocks__/mock-directory";
               
 
         let realResult = isPathAbsolute(relativeRoute);

@@ -1,7 +1,7 @@
 {
   "name": "md-links",
   "version": "0.1.0",
-  "description": "",
+  "description": "## Índice",
   "main": "index.js",
   "engines": {
     "node": ">=14.x"
@@ -9,5 +9,28 @@
   "dependencies": {
     "@types/marked": "^4.0.7",
     "marked": "^4.2.2"
-  }
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  },
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "eslint": "eslint src/** cli.js index.js test/**",
+    "eslint:fix": "npm run eslint -- --fix",
+    "build": "npm run eslint:fix && npm run test"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tatianasanabr/BOG005-md-links.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tatianasanabr/BOG005-md-links/issues"
+  },
+  "homepage": "https://github.com/Tatianasanabr/BOG005-md-links#readme"
 }

@@ -1,5 +1,5 @@
-const path = require('path');
-const { isDirectory } = require('../src/navigate-directory');
+const path = require("path");
+const { isDirectory } = require("../src/readDir");
 
 describe('isDirectory function', () => {
 

@@ -45,10 +45,10 @@ const getMdFiles = (param) => {
     // la función retorna un array con todos los archivos .md
 };
 
-isDirectory(argsTerminal[2]);
+/*isDirectory(argsTerminal[2]);
 dirFiles(argsTerminal[2]);
 mdFiles(argsTerminal[2]);
-getMdFiles(argsTerminal[2]);
+getMdFiles(argsTerminal[2]);*/
 
 
 module.exports = {

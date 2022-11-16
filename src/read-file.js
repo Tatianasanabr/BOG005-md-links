@@ -36,7 +36,7 @@ const extractLinks = (paths) => {
 };
 
 
-readfilePromise(argsTerminal[2]);
+/*readfilePromise(argsTerminal[2]);*/
 
 
 module.exports = {

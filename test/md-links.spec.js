@@ -1,7 +1,7 @@
 //contener los tests unitarios para la función mdLinks(). 
 //Tu inplementación debe pasar estos tets.
 
-const mdLinks = require('../');
+/*const mdLinks = require('../');
 
 
 describe('mdLinks', () => {
@@ -10,4 +10,4 @@ describe('mdLinks', () => {
     console.log('FIX ME!');
   });
 
-});
+});*/
