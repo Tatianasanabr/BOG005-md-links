@@ -3,12 +3,19 @@
   "version": "0.1.0",
   "description": "## Índice",
   "main": "index.js",
+  "type": "commonjs",
   "engines": {
     "node": ">=14.x"
   },
   "dependencies": {
     "@types/marked": "^4.0.7",
-    "marked": "^4.2.2"
+    "@types/node-fetch": "^2.6.2",
+    "axios": "^1.1.3",
+    "fetch": "^1.1.0",
+    "jsdom": "^20.0.2",
+    "marked": "^4.2.2",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.20"
   },
   "devDependencies": {
     "jest": "^29.3.1"
