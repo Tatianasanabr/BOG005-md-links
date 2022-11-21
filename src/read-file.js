@@ -1,4 +1,3 @@
-const { clear } = require("console");
 const fs = require("fs");
 const marked = require("marked");
 const fetch = require("node-fetch");
@@ -53,7 +52,7 @@ const validateLinks = (arrayLinks) => {
       }))
   );
   const promesa = Promise.all(arrayPromes);
-  console.log(promesa);
+  //console.log(promesa);
   return promesa;
 };
 

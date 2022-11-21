@@ -18,4 +18,8 @@ const mdLinks = (path, options={validate:true}) => {
         }
     })
 }
-mdLinks(rutaTerminal).then(res=>console.log('jlaskjlasjlkajlj', res))
+//mdLinks(rutaTerminal).then(res=>console.log('jlaskjlasjlkajlj', res))
+
+module.exports = {
+    mdLinks,
+};
