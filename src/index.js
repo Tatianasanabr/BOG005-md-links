@@ -2,9 +2,9 @@ const { readAllFilesMds, validateLinks } = require("./read-file");
 const { isPathAbsolute } = require("./path");
 const { getMdFiles } = require("./readDir");
 
-const rutaTerminal = process.argv[2]
+//const rutaTerminal = process.argv[2]
 
-const mdLinks = (path, options={validate:true}) => {
+const mdLinks = (path, options={validate:false}) => {
     return new Promise((resolve, reject) =>{
         const absolutePaht = isPathAbsolute(path)
         const arrayMds = getMdFiles(absolutePaht)
