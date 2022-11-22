@@ -1,8 +1,11 @@
 {
-  "name": "md-links",
+  "name": "md-links-tatianasanabr",
   "version": "0.1.0",
-  "description": "## Índice",
+  "description": "Library that allows obtaining the links and their statistics",
   "main": "index.js",
+  "bin": {
+    "md-links": ".cli.js"
+  },
   "type": "commonjs",
   "engines": {
     "node": ">=14.x"
@@ -15,8 +18,10 @@
     "fetch": "^1.1.0",
     "jsdom": "^20.0.2",
     "marked": "^4.2.2",
+    "md-links-tatianasanabr": "^0.1.0",
     "node-fetch": "^2.6.7",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "user": "^0.0.0"
   },
   "devDependencies": {
     "jest": "^29.3.1"
